@@ -255,7 +255,7 @@ export default function Home() {
                   justifyContent: "center",
                 }}
               >
-                <Link className="callback-link" href="#">
+                <Link className="callback-link" href="https://t.me/+8ALAk2lwW0NkMmJi">
                   телеграм
                   <Box
                     sx={{
