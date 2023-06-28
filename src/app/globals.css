@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter" !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  background-color: #1f2023;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  scrollbar-color: #999 #1f2023;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #333;
+}
+body::-webkit-scrollbar-track {
+  background: #1f2023;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #fff;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  width: 100%;
+  background-color: #27292d;
+  padding: 50px 40px;
+  border-radius: 23px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  min-height: 312px;
+}
+
+.confirm-admin-img {
+  width: 100%;
+  max-width: 315px;
+  height: auto;
+  margin-top: -20px;
+  margin-bottom: -25px;
+}
+
+.bot-img {
+  width: 80%;
+  max-width: 273px;
+  height: auto;
+  border-radius: 11px;
+  transform: rotate(-4deg) translateX(20px) translateY(0);
+  margin-bottom: -120px;
+}
+
+.rights-img {
+  width: 100%;
+  height: auto;
+}
+
+.start-bot-img {
+  width: 100%;
+  height: auto;
+}
+
+.ratio-img {
+  width: 50%;
+  height: auto;
+}
+
+.income-img {
+  width: 100%;
+  height: auto;
+  max-width: 270px;
+  margin-bottom: -120px;
+}
+
+.callback-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #2d2f34;
+  border-radius: 15px;
+  padding: 10px 12px 10px 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.callback-link:hover {
+  background-color: #3478f6;
+}
+
+.marketing-auto-img {
+  margin-right: -60px;
+  margin-top: -18px;
+  margin-bottom: -64px;
+  padding-left: 10px;
+}
+
+.payment-img {
+  margin-bottom: -90px;
+}
+
+.result-img {
+  margin-top: 20px;
+  margin-bottom: -120px;
+  transform: rotate(6deg);
+  margin-right: 20px;
+}
+
+.animate-pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .confirm-admin-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bot-img {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .income-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ratio-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .subject-matter-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .marketing-auto-img {
+    width: 100%;
+    padding-left: 0;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .result-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    padding: 40px 24px;
+  }
+}
