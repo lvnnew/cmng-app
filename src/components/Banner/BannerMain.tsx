@@ -66,11 +66,9 @@ export const BannerMain: FC<Props> = ({ setIsOpenLogin }) => {
               variant="h1"
               sx={{
                 fontSize: {
-                  xs: "30px",
-                  sm: "40px",
-                  md: "50px",
-                  lg: "60px",
-                  xl: "70px",
+                  xs: "40px",
+                  sm: "50px",
+                  md: "70px",
                 },
                 fontWeight: 800,
                 maxWidth: { xs: "90%", sm: "435px", md: "800px" },
@@ -90,10 +88,9 @@ export const BannerMain: FC<Props> = ({ setIsOpenLogin }) => {
               component="p"
               sx={{
                 margin: "0 auto",
-                marginTop: "20px",
+                marginTop: "22px",
                 maxWidth: "216px",
-                fontSize: "15px",
-                px: "24px",
+                fontSize: "16px",
                 color: "hsla(0,0%,100%,.5)",
                 lineHeight: 1.3,
               }}

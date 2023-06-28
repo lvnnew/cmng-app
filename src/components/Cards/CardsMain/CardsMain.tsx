@@ -153,7 +153,7 @@ export const CardsMain: FC = () => {
                       width="11"
                       height="10"
                       viewBox="0 0 11 10"
-                      fill="currentColor"
+                      fill="#6cff69"
                       xmlns="http://www.w3.org/2000/svg"
                       className="Vknqfc"
                     >
@@ -213,7 +213,7 @@ export const CardsMain: FC = () => {
                         color: "hsla(0,0%,100%,.25)",
                       }}
                     >
-                      23440 кликов
+                      23 440 кликов
                     </Typography>
                     <Button
                       sx={{
@@ -244,6 +244,16 @@ export const CardsMain: FC = () => {
                         ></path>
                       </svg>
                     </Button>
+
+                    <Typography
+                      sx={{
+                        fontWeight: 400,
+                        fontSize: "15px",
+                        color: "hsla(0,0%,100%,.25)",
+                      }}
+                    >
+                      20 000₽
+                    </Typography>
                   </Box>
                 </Box>
                 <Typography
@@ -256,7 +266,7 @@ export const CardsMain: FC = () => {
                     maxWidth: "90%",
 
                     "@media(max-width: 360px)": {
-                      fontSize: "16px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -377,7 +387,7 @@ export const CardsMain: FC = () => {
                       width="11"
                       height="10"
                       viewBox="0 0 11 10"
-                      fill="currentColor"
+                      fill="#6cff69"
                       xmlns="http://www.w3.org/2000/svg"
                       className="Vknqfc"
                     >
@@ -437,7 +447,7 @@ export const CardsMain: FC = () => {
                         color: "hsla(0,0%,100%,.25)",
                       }}
                     >
-                      23440 кликов
+                      23 440 кликов
                     </Typography>
                     <Button
                       sx={{
@@ -468,6 +478,17 @@ export const CardsMain: FC = () => {
                         ></path>
                       </svg>
                     </Button>
+
+                    <Typography
+                      sx={{
+                        textAlign: 'right',
+                        fontWeight: 400,
+                        fontSize: "15px",
+                        color: "hsla(0,0%,100%,.25)",
+                      }}
+                    >
+                      20 000.00₽
+                    </Typography>
                   </Box>
                 </Box>
                 <Typography
@@ -605,7 +626,7 @@ export const CardsMain: FC = () => {
                       width="11"
                       height="10"
                       viewBox="0 0 11 10"
-                      fill="currentColor"
+                      fill="#6cff69"
                       xmlns="http://www.w3.org/2000/svg"
                       className="Vknqfc"
                     >
@@ -665,7 +686,7 @@ export const CardsMain: FC = () => {
                         color: "hsla(0,0%,100%,.25)",
                       }}
                     >
-                      23440 кликов
+                      23 440 кликов
                     </Typography>
                     <Button
                       sx={{
@@ -696,6 +717,17 @@ export const CardsMain: FC = () => {
                         ></path>
                       </svg>
                     </Button>
+                    <Typography
+                      sx={{
+                        textAlign: 'right',
+                        fontWeight: 400,
+                        fontSize: "15px",
+                        color: "hsla(0,0%,100%,.25)",
+                        marginLeft: 1
+                      }}
+                    >
+                      20 000.00₽
+                    </Typography>
                   </Box>
                 </Box>
                 <Typography
