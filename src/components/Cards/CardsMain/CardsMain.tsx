@@ -38,7 +38,7 @@ export const CardsMain: FC = () => {
   const rotate1 = useTransform(
     scrollYProgressCards,
     [0.2, 0.6],
-    [7, innerWidth < 640 ? 0 : -0.5]
+    [7, innerWidth < 640 ? 0 : 0]
   );
 
   const scale1 = useTransform(scrollYProgressCards, [0.2, 0.6], [1, 1.5]);
@@ -57,7 +57,7 @@ export const CardsMain: FC = () => {
 
   const rotate2 = useTransform(scrollYProgressCards, [0.2, 0.6], [21, -90]);
 
-  const scale2 = useTransform(scrollYProgressCards, [0.2, 0.6], [0.4, 0.5]);
+  const scale2 = useTransform(scrollYProgressCards, [0.2, 0.6], [0.4, 0.6]);
 
   const translateX3 = useTransform(
     scrollYProgressCards,
@@ -115,7 +115,6 @@ export const CardsMain: FC = () => {
                 borderRadius: "20px",
                 maxWidth: "670px",
                 padding: "48px",
-
                 "@media(max-width: 1024px)": {
                   width: "100%",
                   maxWidth: "90%",
@@ -225,7 +224,7 @@ export const CardsMain: FC = () => {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        opacity: 0.5,
+                        opacity: 0.6,
                         transition: "0.2s",
                         minWidth: "auto",
                       }}
@@ -244,15 +243,15 @@ export const CardsMain: FC = () => {
                         ></path>
                       </svg>
                     </Button>
-
                     <Typography
                       sx={{
                         fontWeight: 400,
                         fontSize: "15px",
                         color: "hsla(0,0%,100%,.25)",
+                        marginLeft: 19,
                       }}
                     >
-                      20 000₽
+                      20 000.00₽
                     </Typography>
                   </Box>
                 </Box>
@@ -264,7 +263,6 @@ export const CardsMain: FC = () => {
                     lineHeight: 1.28,
                     color: "#fff",
                     maxWidth: "90%",
-
                     "@media(max-width: 360px)": {
                       fontSize: "14px",
                     },
@@ -459,7 +457,7 @@ export const CardsMain: FC = () => {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        opacity: 0.5,
+                        opacity: 0.6,
                         transition: "0.2s",
                         minWidth: "auto",
                       }}
@@ -485,6 +483,7 @@ export const CardsMain: FC = () => {
                         fontWeight: 400,
                         fontSize: "15px",
                         color: "hsla(0,0%,100%,.25)",
+                        marginLeft: 19,
                       }}
                     >
                       20 000.00₽
@@ -698,7 +697,7 @@ export const CardsMain: FC = () => {
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        opacity: 0.5,
+                        opacity: 0.6,
                         transition: "0.2s",
                         minWidth: "auto",
                       }}

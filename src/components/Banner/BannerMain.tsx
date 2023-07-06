@@ -113,7 +113,7 @@ export const BannerMain: FC<Props> = ({ setIsOpenLogin }) => {
                 alignItems: "center",
                 position: "relative",
                 zIndex: 1,
-                transition: "0.33s",
+                transition: "0.3s",
                 overflow: "hidden",
                 textTransform: "none",
                 mx: "auto",

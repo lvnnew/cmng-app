@@ -42,7 +42,7 @@ export const Questions = () => {
         idx={4}
       />
       <QuestionItem
-        title="Как подключить свой канал"
+        title="Как подключить свой канал?"
         contentText="Подтвердите аккаунт владельца канала в личном кабинете и добавьте бота @tt_ad_bot в свой канал"
         isOpenIdx={isOpenIdx}
         setIsOpenIdx={setIsOpenIdx}

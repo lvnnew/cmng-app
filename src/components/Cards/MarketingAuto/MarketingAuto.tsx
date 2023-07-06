@@ -13,7 +13,7 @@ export const MarketingAuto = () => {
           width: "100%",
           flexDirection: { xs: "column" },
           "@media(min-width: 768px)": {
-            flexDirection: "row-reverse",
+            flexDirection: "row",
           },
           gap: "40px",
         }}
