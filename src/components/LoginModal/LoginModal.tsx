@@ -76,7 +76,7 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
                 }
           }
           style={{
-            position: "fixed",
+            position: "relative",
             top: "50%",
             left: "50%",
             maxWidth: "370px",
@@ -84,7 +84,6 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
             width: "100%",
             borderRadius: "16px",
             padding: "40px 25px 25px",
-            transition: "0.2s",
             boxShadow: "0 18px 36px rgba(0,0,0,.14)",
           }}
           onClick={(e) => {
@@ -98,6 +97,7 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
               fontWeight: 600,
               lineHeight: 1.25,
               color: "#fff",
+              transition: "0.2s"
             }}
           >
             Выберите способ для логина
