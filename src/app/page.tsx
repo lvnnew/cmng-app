@@ -122,6 +122,12 @@ export default function Home() {
                 justifyContent: "center",
                 alignItems: "center",
                 mx: "auto",
+                "&:hover": {
+                  transform: "scale(1.1)",
+                  opacity: .9,
+                  background: "#2d2f34",
+                  transition:".33s",
+                  },
               }}
               onClick={() => setIsOpenLogin(true)}
             >

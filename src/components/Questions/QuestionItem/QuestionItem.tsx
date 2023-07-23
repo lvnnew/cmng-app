@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { FC, useState } from "react";
+import { FC } from "react";
 
 type Props = {
   title: string;
@@ -61,7 +61,7 @@ export const QuestionItem: FC<Props> = ({
             },
           }}
         >
-          {title}
+          {isOpenIdx !== idx ? `${title}?` : title}
         </Typography>
         <Box
           sx={{
