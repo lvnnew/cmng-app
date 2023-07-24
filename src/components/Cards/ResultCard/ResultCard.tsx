@@ -51,7 +51,7 @@ export const ResultCard: FC<Props> = ({ setIsOpenLogin }) => {
             }}
           >
             Не нужно обновлять страницу, чтобы увидеть новую информацию по
-            рекламной кампании
+            рекламной компании
           </Typography>
           <Button
             sx={{

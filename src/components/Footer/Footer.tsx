@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -31,7 +30,7 @@ export const Footer = () => {
             cursor: "pointer",
             fontSize: "15px",
             "&:hover": {
-              color: "#3478f6",
+              color: "#a4d2ff",
             },
             borderBottom: "1px solid hsla(0,0%,100%,.5)",
           }}

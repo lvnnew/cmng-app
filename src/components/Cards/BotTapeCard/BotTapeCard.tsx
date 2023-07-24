@@ -33,7 +33,7 @@ export const BotTapeCard = () => {
               lineHeight: 1.2,
             }}
           >
-            Бот добавит в ленту один пост
+            Бот добавит <br/>в ленту один пост
           </Typography>
           <Typography
             component="p"
@@ -55,8 +55,7 @@ export const BotTapeCard = () => {
               color: "hsla(0,0%,100%,.5)",
             }}
           >
-            Пост опубликуется без звука, будет редактироваться - реклама
-            меняться
+            Пост опубликуется без звука, будет редактироваться - реклама меняться
           </Typography>
           <Typography
             component="p"

@@ -66,14 +66,14 @@ export default function Monetization() {
             </Box>
           </Box>
 
+          <Callback />
           <Box
             sx={{
               maxWidth: "675px",
-              mx: "auto",
               padding: { xs: "0 24px", sm: "0 48px" },
+              mx: "auto",
             }}
           >
-            <Callback />
             <QuestionsMonetization />
           </Box>
 

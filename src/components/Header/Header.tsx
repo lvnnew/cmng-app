@@ -14,7 +14,7 @@ export const Header: FC<Props> = ({ link, title }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "15px 0",
+        padding: "20px 0",
       }}
     >
       <Link href={link}>

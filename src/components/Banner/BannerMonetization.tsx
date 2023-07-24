@@ -1,7 +1,7 @@
-import { Logo } from "@/components";
-import { Box, Button, Typography } from "@mui/material";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { FC, useRef } from "react";
+import {Logo} from '@/components';
+import {Box, Button, Typography} from '@mui/material';
+import {motion, useScroll, useTransform} from 'framer-motion';
+import {FC, useRef} from 'react';
 
 type Props = {
   setIsOpenLogin: Function;
@@ -50,19 +50,22 @@ export const BannerMonetization: FC<Props> = ({ setIsOpenLogin }) => {
               variant="h1"
               sx={{
                 fontSize: {
-                  xs: "30px",
+                  xs: "28px",
+                  s: "30px",
                   sm: "40px",
-                  md: "50px",
-                  lg: "60px",
-                  xl: "70px",
+                  m: "50px",
+                  md: "60px",
+                  lg: "70px",
+                  xl: "76px",
                 },
                 fontWeight: 800,
-                maxWidth: { xs: "90%", sm: "435px", md: "800px" },
+                maxWidth: { xs: "425px", s: "600px", sm: "748px", m: "900px", md: "1024px", lg: "1280px", xl: "1400px" },
+                lineHeight: 1.08,
                 width: "100%",
                 margin: "0 auto",
               }}
             >
-              Способ монетизации телеграм канала
+              Способ монетизации <br/> телеграм канала
             </Typography>
           </motion.div>
           <motion.div

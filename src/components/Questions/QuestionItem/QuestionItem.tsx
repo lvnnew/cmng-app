@@ -53,6 +53,7 @@ export const QuestionItem: FC<Props> = ({
             fontSize: "24px",
             lineHeight: 1.25,
             color: "#fff",
+            fontWeight: 600,
 
             "@media(max-width: 640px)": {
               fontSize: "18px",
@@ -69,7 +70,7 @@ export const QuestionItem: FC<Props> = ({
             height: { xs: "32px", sm: "42px" },
             minWidth: { xs: "32px", sm: "42px" },
             background: "#27292d",
-            borderRadius: "9px",
+            borderRadius: "14px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -115,7 +116,10 @@ export const QuestionItem: FC<Props> = ({
               fontSize: { xs: "14px", sm: "16px" },
               color: "hsla(0,0%,100%,.6)",
               lineHeight: 1.4,
+              paddingRight: "60px",
+              cursor: "pointer",
             }}
+            onClick={() => setIsOpenIdx(isOpenIdx !== idx ? idx : 0)}
           >
             {contentText}
           </Typography>
