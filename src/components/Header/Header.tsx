@@ -14,18 +14,21 @@ export const Header: FC<Props> = ({ link, title }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "15px 0",
+        padding: "20px 0",
       }}
     >
       <Link href={link}>
         <Box
           sx={{
+            height: "36px",
             display: "flex",
             alignItems: "center",
             padding: "6px 4px 6px 14px",
             borderRadius: "7px",
             color: "hsla(0,0%,100%,.68)",
             backgroundColor: "#27292d",
+            fontWeight: 400,
+            gridGap: "6px",
             fontSize: "15px",
             lineHeight: 1.2,
             transition: "all 0.2s ease",

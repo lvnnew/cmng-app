@@ -100,7 +100,7 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
               transition: "0.2s"
             }}
           >
-            Выберите способ для логина
+            Выберите способ <br/>для логина
           </Typography>
 
           <Box
@@ -132,7 +132,7 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
               <Box
                 sx={{
                   width: "32px",
-                  height: "32px",
+                  height: "30px",
                   backgroundColor: "hsla(0,0%,100%,.05)",
                   borderRadius: "50%",
                   display: "flex",
@@ -155,7 +155,7 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
                   ></path>
                 </svg>
               </Box>
-              <Typography component="span">по почте</Typography>
+              <Typography component="span"><b style={{fontSize: "15px"}}>по почте</b></Typography>
             </Button>
             <Button
               sx={{
@@ -199,10 +199,9 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
                   ></path>
                 </svg>
               </Box>
-              <Typography component="span">по телефону</Typography>
+              <Typography component="span"><b style={{fontSize: "15px"}}>по телефону</b></Typography>
             </Button>
-            <Box
-              component="a"
+            <Button
               sx={{
                 display: "flex",
                 alignItems: "center",
@@ -217,6 +216,7 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
                 color: "#fff",
                 textTransform: "none",
               }}
+              onClick={() => setModalIdx(3)}
             >
               <Box
                 sx={{
@@ -243,8 +243,8 @@ export const LoginModal: FC<Props> = ({ isOpenLogin, setIsOpenLogin }) => {
                   ></path>
                 </svg>
               </Box>
-              <Typography component="span">через телеграм</Typography>
-            </Box>
+              <Typography component="span"><b style={{fontSize: "15px"}}>через телеграм</b></Typography>
+            </Button>
           </Box>
           <Typography
             component="p"

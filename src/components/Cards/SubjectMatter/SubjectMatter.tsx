@@ -34,7 +34,7 @@ export const SubjectMatter = () => {
               lineHeight: 1.2,
             }}
           >
-            Выберите таматики телеграм каналов
+            Выберите тематики телеграм каналов
           </Typography>
           <Typography
             component="p"

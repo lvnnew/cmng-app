@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Link from "next/link";
 
 export const Callback = () => {
@@ -6,7 +6,7 @@ export const Callback = () => {
     <Box
       sx={{
         textAlign: "center",
-        mt: "50px",
+        mt: "22px",
         position: "relative",
         zIndex: 10,
       }}
@@ -17,6 +17,10 @@ export const Callback = () => {
           fontSize: "16px",
           lineHeight: 1.3,
           color: "hsla(0,0%,100%,.5)",
+          textAlign: "center",
+          mt: "22px",
+          position: "relative",
+          zIndex: 10,
         }}
       >
         Ответим на любые вопросы по работе сервиса, <br /> мы открыты к разным
@@ -34,11 +38,11 @@ export const Callback = () => {
         }}
       >
         <Link className="callback-link" href="https://t.me/+8ALAk2lwW0NkMmJi">
-          телеграм
+          <b style={{fontSize: "16px"}}>телеграм</b>
           <Box
             sx={{
-              width: "20px",
-              height: "20px",
+              width: "29px",
+              height: "24px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -70,11 +74,11 @@ export const Callback = () => {
           </Box>
         </Link>
         <Link className="callback-link" href="#">
-          почта
+          <b style={{fontSize: "16px"}}>почта</b>
           <Box
             sx={{
-              width: "20px",
-              height: "20px",
+              width: "29px",
+              height: "24px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",

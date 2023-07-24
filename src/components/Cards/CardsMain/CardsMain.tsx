@@ -218,7 +218,7 @@ export const CardsMain: FC = () => {
                       sx={{
                         width: "26px",
                         height: "26px",
-                        transform: "rotate(90deg)",
+                        rotate: "90deg",
                         background: "#2d2f34",
                         borderRadius: "50%",
                         display: "flex",
@@ -227,6 +227,12 @@ export const CardsMain: FC = () => {
                         opacity: 0.6,
                         transition: "0.2s",
                         minWidth: "auto",
+                        "&:hover": {
+                          transform: "scale(1.2)",
+                          opacity: .9,
+                          background: "#2d2f34",
+                          transition: "0.33s",
+                        },
                       }}
                     >
                       <svg

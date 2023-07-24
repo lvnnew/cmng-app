@@ -1,7 +1,7 @@
-import { Logo } from "@/components";
-import { Box, Button, Typography } from "@mui/material";
-import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
-import { FC, RefObject, useEffect, useRef, useState } from "react";
+import {Logo} from '@/components';
+import {Box, Button, Typography} from '@mui/material';
+import {motion, useScroll, useTransform} from 'framer-motion';
+import {FC, useEffect, useRef, useState} from 'react';
 
 type Props = {
   setIsOpenLogin: Function;
@@ -66,12 +66,17 @@ export const BannerMain: FC<Props> = ({ setIsOpenLogin }) => {
               variant="h1"
               sx={{
                 fontSize: {
-                  xs: "40px",
-                  sm: "50px",
-                  md: "70px",
+                  xs: "28px",
+                  s: "30px",
+                  sm: "40px",
+                  m: "50px",
+                  md: "60px",
+                  lg: "70px",
+                  xl: "76px",
                 },
                 fontWeight: 800,
-                maxWidth: { xs: "90%", sm: "435px", md: "800px" },
+                maxWidth: { xs: "425px", s: "600px", sm: "748px", m: "900px", md: "1024px", lg: "1280px", xl: "1400px" },
+                lineHeight: 1.08,
                 width: "100%",
                 margin: "0 auto",
               }}
