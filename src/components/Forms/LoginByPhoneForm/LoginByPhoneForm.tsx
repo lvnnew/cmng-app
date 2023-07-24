@@ -114,7 +114,7 @@ export const LoginByPhoneForm: FC<Props> = ({ isOpenLogin, setModalIdx }) => {
           mt: "32px",
         }}
       >
-        На этот email придет код для входа
+        На этот номер придет код для входа
       </Typography>
 
       <Box
@@ -173,7 +173,7 @@ export const LoginByPhoneForm: FC<Props> = ({ isOpenLogin, setModalIdx }) => {
           >
             <Box
               component="input"
-              placeholder="Введите телефон"
+              placeholder="(123)-456-78-90"
               sx={{
                 width: "100%",
                 backgroundColor: "transparent",

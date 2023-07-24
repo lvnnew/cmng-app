@@ -15,7 +15,7 @@ export const BotTapeCard = () => {
           "@media(min-width: 768px)": {
             flexDirection: "row",
           },
-          gap: "40px",
+          gap: "39px",
         }}
       >
         <Box
